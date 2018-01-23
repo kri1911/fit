@@ -585,6 +585,18 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-bottom: 0;
 }
 
+#ourPluses {
+    background: url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
+
+#ourPluses h2,#ourPluses h3,#ourPluses h4{
+    color: white;
+    font-weight: bold;
+}
+
 .services {
   padding: 25px;
   margin-top: -10em;
@@ -648,6 +660,10 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 10px;
 }
+.trainer img.main {
+  object-fit: cover;
+  height: 300px;
+}
 
 .trainer p,.trainer h4 {
     width: 90%;
@@ -656,6 +672,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .trainer p {
+    min-height: 200px;
     font-size: 14px;
 }
 
@@ -1766,6 +1783,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .js .animate-box {
   opacity: 0;
+    margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
