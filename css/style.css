@@ -25,6 +25,7 @@ body {
   line-height: 1.7;
   color: #828282;
   background: #fff;
+    overflow-x: hidden;
 }
 
 #page {
@@ -262,6 +263,92 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav ul li.active > a {
   color: #AD8A14 !important;
+}
+
+.mainBlock {
+    width: 100%;
+    min-height: 1000px;
+    background: url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.trainer h4 {
+   color: #efc420!important;
+   font-family: 'Garamond'; 
+}
+
+.mainBlock h2 {
+    color: #efc420!important;
+    font-family: 'Garamond';
+}
+
+#fh5co-trainer p {
+  font-family: 'Garamond';
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+}
+
+.aboutIUs {
+    padding-top: 40px;
+}
+
+.aboutIUs h3 {
+   color: #efc420!important;
+   font-family: 'Garamond';
+   padding: 40px 0;
+    font-size: 28px;
+}
+
+#fh5co-heading {
+  font-family: 'Garamond'!important;
+  font-size: 24px!important;
+  line-height: 1.5!important;
+  color: white!important;
+}
+
+.trainer p,.trainer h4 {
+    width: 100%;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.trainer p {
+    font-size: 14px;
+}
+
+.mainBlock header {
+    display: flex;
+    height: 130px;
+    width: 100%;
+    background-color: rgb(43, 42, 40);
+}
+
+.mainBlock header h1 {
+    color: #efc420;
+    font-family: 'Garamond';
+    margin-top: 40px;
+    margin-left: 20%;
+}
+
+
+.line {
+    height: 4px;
+    position: absolute;
+    width: calc(100%);
+    margin-top: 114px;
+    background: linear-gradient(to right, #8a5535, #efc420, #8a5535);
+}
+
+.logoimg {
+    width: 250px;
+    height: 130px!important;
+    height: auto;
+    background: url('../images/logo.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 #fh5co-header,
@@ -665,16 +752,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 300px;
 }
 
-.trainer p,.trainer h4 {
-    width: 90%;
-    text-align: left;
-    padding-left: 25px;
-}
 
-.trainer p {
-    min-height: 200px;
-    font-size: 14px;
-}
 
 .trainer .title {
   width: 100%;
@@ -728,9 +806,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-schedule .fh5co-heading h2 {
   color: #fff;
 }
-#fh5co-schedule .fh5co-heading p {
-  color: rgba(255, 255, 255, 0.5);
-}
+
 #fh5co-schedule .fh5co-heading span {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -1083,11 +1159,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #AD8A14;
   content: '';
 }
-.fh5co-heading p {
-  font-size: 18px;
-  line-height: 1.5;
-  color: #828282;
-}
+.
 .fh5co-heading span {
   display: block;
   margin-bottom: 10px;
@@ -1301,7 +1373,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #262626;
+  background-color: rgb(43, 42, 40);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
