@@ -282,9 +282,17 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .aboutIUs h3 {
-   color: #efc420!important;
-   padding: 40px 0;
-    font-size: 24px;
+    color: white;
+   padding: 20px 0;
+   font-size: 20px;
+    font-style: italic;
+}
+.aboutIUs .text-left h3{
+	padding-left: 25px;
+}
+
+.aboutIUs .text-right h3{
+	padding-right: 25px;
 }
 
 #fh5co-heading {
