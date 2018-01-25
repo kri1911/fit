@@ -1,25 +1,15 @@
-/* 
-Tneme Name: FREE HTML5 TEMPLATE 
-Theme URL: http://kri.com
-Description: FREE HTML5 TEMPLATE 
-Version: 1.0
-Author: Kri
-Author URL: http://kri.com
-Template: FREE HTML5 TEMPLATE 
-*/
-
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab&subset=cyrillic);
 @font-face {
-  font-family: 'icomoon';
-  src: url("./fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("./fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("./fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("./fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("./fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Pacifico', cursive;
+  src: url("./fonts/icomoon/boyarsky_bolditalic.ttf") format('truetype');
+  font-weight: bold;
+  font-style: italic;
 }
 footer#fh5co-footer {
     padding: 30px 0 ;
 }
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -73,7 +63,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -142,7 +132,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-weight: bold;
   font-weight: 700;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Annabelle", Arial, sans-serif;
 }
 .fh5co-nav #fh5co-logo a span {
   color: #AD8A14;
@@ -275,17 +265,14 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .trainer h4 {
    color: #efc420!important;
-   font-family: 'Garamond'; 
 }
 
 .mainBlock h2 {
     color: #efc420!important;
-    font-family: 'Garamond';
 }
 
 #fh5co-trainer p {
-  font-family: 'Garamond';
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   color: white;
 }
@@ -296,14 +283,12 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .aboutIUs h3 {
    color: #efc420!important;
-   font-family: 'Garamond';
    padding: 40px 0;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 #fh5co-heading {
-  font-family: 'Garamond'!important;
-  font-size: 24px!important;
+  font-size: 22px!important;
   line-height: 1.5!important;
   color: white!important;
 }
@@ -320,17 +305,17 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .mainBlock header {
-    display: flex;
-    height: 130px;
+    min-height: 130px;
     width: 100%;
     background-color: rgb(43, 42, 40);
 }
 
 .mainBlock header h1 {
     color: #efc420;
-    font-family: 'Garamond';
-    margin-top: 40px;
-    margin-left: 20%;
+    font-style: italic;
+    padding-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 
@@ -338,14 +323,13 @@ h1, h2, h3, h4, h5, h6, figure {
     height: 4px;
     position: absolute;
     width: calc(100%);
-    margin-top: 114px;
     background: linear-gradient(to right, #8a5535, #efc420, #8a5535);
 }
 
 .logoimg {
     width: 250px;
+    margin: 0 auto;
     height: 130px!important;
-    height: auto;
     background: url('../images/logo.jpg');
     background-position: center;
     background-size: cover;
