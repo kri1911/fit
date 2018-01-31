@@ -17,6 +17,99 @@ body {
   background: #fff;
     overflow-x: hidden;
 }
+.tuh:hover::after {
+    transition-delay: 50ms;
+    transition-duration: 250ms;
+    opacity: 1;  
+}
+
+
+
+.tuh::after {
+    transition-delay: 50ms;
+    transition-duration: 250ms;
+    opacity: 0;
+    position: absolute;
+    width: 79%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    color: #efc420!important;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 95%;
+    left: 0;
+    top: 0;
+    content: 'Профессиональный педагог-хореограф и постановщик. Более 15 лет в танцевальной сфере. Лауреат республиканских и международных хореографических конкурсов и фестивалей стран СНГ и Европы. Член Белорусской федерации черлидинга. Победитель Открытого чемпионата РБ и Республиканского турнира по черлидингу в составе команды "Эдельвейс".'
+}
+
+
+.smus:hover::after {
+    transition-delay: 50ms;
+    transition-duration: 250ms;
+    opacity: 1;  
+}
+.smus::after {
+    transition-delay: 50ms;
+    transition-duration: 250ms;
+    opacity: 0;
+    position: absolute;
+    width: 79%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    color: #efc420!important;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 95%;
+    left: 0;
+    top: 0;
+    content: 'Мастер спорта международного класса. Чемпионка Европы и серебряный призер чемпионата Европы в групповых упражнениях. Работаю тренером по художественной и эстетической гимнастике'
+}
+
+.sol:hover::after {
+    transition-delay: 50ms;
+    transition-duration: 250ms;
+    opacity: 1;  
+}
+.sol::after {
+    transition-delay: 50ms;
+    transition-duration: 250ms;
+    opacity: 0;
+    position: absolute;
+    width: 79%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    color: #efc420!important;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 95%;
+    left: 0;
+    top: 0;
+    content: 'Мастер спорта по художественной гимнастике, работаю тренером по гимнастике с детьми от 3,5 лет, индивидуальное отношение к клиентам, трудолюбивая, активная, ответственная, настойчивая.'
+}
+
+.mux:hover::after {
+    transition-delay: 50ms;
+    transition-duration: 250ms;
+    opacity: 1;  
+}
+.mux::after {
+    transition-delay: 50ms;
+    transition-duration: 250ms;
+    opacity: 0;
+    position: absolute;
+    width: 79%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    color: #efc420!important;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 95%;
+    left: 0;
+    top: 0;
+    content: 'КМС по Гандболу, бронзовый призер международных игр стран СНГ и Балтии.'
+}
+
+
 
 #page {
   position: relative;
@@ -92,7 +185,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav .top-menu {
   padding: 15px 0;
-  background: rgba(0, 0, 0, 0.05);
+  background-color: rgb(43, 42, 40);
 }
 .fh5co-nav .top {
   background: #AD8A14;
@@ -139,7 +232,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav a {
   padding: 5px 10px;
-  color: #000;
+  color:white;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
@@ -166,7 +259,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.5s;
 }
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
-  color: #000 !important;
+  color: white !important;
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -255,9 +348,9 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #AD8A14 !important;
 }
 
-.mainBlock {
+#fh5co-services, #fh5co-trainer, #fh5co-trainers {
+    border-bottom: 2px solid #AD8A14;
     width: 100%;
-    min-height: 1000px;
     background: url('../images/background.jpg');
     background-position: center;
     background-size: cover;
@@ -296,8 +389,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-heading {
-  font-size: 22px!important;
-  line-height: 1.5!important;
   color: white!important;
 }
 
@@ -310,20 +401,13 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .trainer p {
     font-size: 14px;
+    color: white;
 }
 
 .mainBlock header {
-    min-height: 130px;
+    min-height: 100px;
     width: 100%;
     background-color: rgb(43, 42, 40);
-}
-
-.mainBlock header h1 {
-    color: #efc420;
-    font-style: italic;
-    padding-top: 20px;
-    margin-bottom: 0;
-    text-align: center;
 }
 
 
@@ -336,7 +420,6 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .logoimg {
     width: 250px;
-    margin: 0 auto;
     height: 130px!important;
     background: url('../images/logo.jpg');
     background-position: center;
@@ -460,7 +543,6 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 700px;
   display: table;
   width: 100%;
-  margin-top: 100px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
@@ -578,7 +660,6 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
   margin-bottom: 20px;
-  font-size: 54px;
   line-height: 1.3;
   text-transform: uppercase;
   font-weight: 400;
@@ -636,13 +717,14 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-started,
 #fh5co-testimonial,
 #fh5co-trainer,
+#fh5co-trainers,
 #fh5co-gallery,
 #fh5co-schedule,
 #fh5co-pricing,
 #fh5co-blog,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 4em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -678,7 +760,6 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .services {
   padding: 25px;
-  margin-top: -10em;
   background: #fff;
   -webkit-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 0.43);
   -moz-box-shadow: 0px 10px 23px -10px rgba(0, 0, 0, 0.43);
@@ -707,6 +788,11 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 60px;
   margin: 0 auto;
 }
+
+.trainer.tr h3, .trainer.tr span {
+    color: white!important;
+}
+
 .services h3 {
   text-transform: uppercase;
   font-size: 16px;
@@ -726,10 +812,11 @@ h1, h2, h3, h4, h5, h6, figure {
   content: '';
 }
 
-.trainer {
-  position: relative;
-  background: rgba(0, 0, 0, 0.05);
+.trainer.tr {
+  position: relative!important;
+  background: rgba(0, 0, 0, 0.05)!important;
 }
+
 @media screen and (max-width: 768px) {
   .trainer {
     margin-bottom: 30px;
@@ -739,6 +826,11 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 10px;
 }
+
+.trainer.tr img {
+  width: 84%;
+}
+
 .trainer img.main {
   object-fit: cover;
   height: 300px;
@@ -764,9 +856,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
 }
-.trainer .title h3 a {
-  color: #000;
-}
+
 .trainer .title h3 a:hover, .trainer .title h3 a:focus {
   color: #AD8A14;
 }
@@ -978,7 +1068,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   color: #888f94;
 }
 .pricing-plan.pricing-plan-offer {
