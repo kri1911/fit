@@ -238,6 +238,9 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-nav .menu-1 {
     display: none;
   }
+    .logoimg {
+        margin: 0 auto;
+    }
 }
 .fh5co-nav ul {
   padding: 0;
@@ -1941,6 +1944,12 @@ h1, h2, h3, h4, h5, h6, figure {
 .js .animate-box {
   opacity: 0;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 650px) {
+    h1 {
+        font-size: 19px!important;
+    }
 }
 
 /*# sourceMappingURL=style.css.map */
