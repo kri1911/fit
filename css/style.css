@@ -351,7 +351,21 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #AD8A14 !important;
 }
 
-#fh5co-services, #fh5co-trainer, #fh5co-trainers {
+.itsimportant {
+    padding: 64px 0;
+}
+
+.itsimportant p {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.itsimportant img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#fh5co-services, #fh5co-trainer, #fh5co-trainers, .itsimportant {
     border-bottom: 2px solid #AD8A14;
     width: 100%;
     background: url('../images/background.jpg');
