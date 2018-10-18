@@ -645,6 +645,7 @@ ul.left_menu > li {
 }
 
 .banners_main_item_first {
+    overflow: hidden;
     transition-delay: 50ms;
     transition-duration: 350ms; 
     width: 50%;
@@ -678,6 +679,7 @@ ul.left_menu > li {
 
 .banners_main_item_second {
     position: relative;
+    overflow: hidden;
     transition-delay: 50ms;
     transition-duration: 350ms; 
     width: 50%;
@@ -709,6 +711,7 @@ ul.left_menu > li {
 }
 .banners_main_item_third {
     position: relative;
+    overflow: hidden;
     transition-delay: 50ms;
     transition-duration: 350ms; 
     width: 25%;
@@ -740,6 +743,7 @@ ul.left_menu > li {
 }
 .banners_main_item_fourth {
     position: relative;
+    overflow: hidden;
     transition-delay: 50ms;
     transition-duration: 350ms; 
     width: 50%;
@@ -771,6 +775,7 @@ ul.left_menu > li {
 }
 .banners_main_item_fifth {
     position: relative;
+    overflow: hidden;
     transition-delay: 50ms;
     transition-duration: 350ms; 
     width: 25%;
